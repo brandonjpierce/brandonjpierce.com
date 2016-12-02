@@ -1,0 +1,102 @@
+@import 'normalize.css';
+@import 'basscss';
+
+@custom-media --breakpoint-sm (min-width: 40em);
+@custom-media --breakpoint-md (min-width: 52em);
+@custom-media --breakpoint-lg (min-width: 64em);
+@custom-media --breakpoint-xl (min-width: 72em);
+
+:root {
+  --link: #1a00f2;
+  --charcoal: #424242;
+  --black: #121212;
+  --grey: #9e9e9e;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  color: var(--charcoal);
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  line-height: 1.5;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+.container {
+  padding: 2rem;
+}
+
+@media (--breakpoint-md) {
+  .container {
+    padding: 3rem;
+    max-width: 75%;
+  }
+}
+
+@media (--breakpoint-lg) {
+  .container {
+    max-width: 50%;
+    padding: 4rem 0 4rem 4rem;
+  }
+}
+
+@media (--breakpoint-xl) {
+  .container {
+    max-width: 33.33%;
+  }
+}
+
+.list-inside {
+  list-style-position: inside;
+  list-style-type: disc;
+}
+
+.black {
+  color: var(--black);
+}
+
+.grey {
+  color: var(--grey);
+}
+
+.logo {
+  background-color: var(--black);
+  border-radius: 50%;
+  height: 4rem;
+  position: relative;
+  width: 4rem;
+}
+
+.logo::after {
+  content: 'bp';
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding:0 !important;
+    border:0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+body:hover .visually-hidden a,
+body:hover .visually-hidden input,
+body:hover .visually-hidden button {
+  display: none !important;
+}

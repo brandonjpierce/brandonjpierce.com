@@ -1,0 +1,32 @@
+{
+  "name": "brandonjpierce",
+  "version": "1.0.0",
+  "scripts": {
+    "publish": "b-website && now ./public -n bjp --static"
+  },
+  "bin": {
+    "b-website": "index.js"
+  },
+  "dependencies": {
+    "autoprefixer": "^6.5.3",
+    "basscss": "^8.0.3",
+    "css-mqpacker": "^5.0.1",
+    "cssnano": "^3.8.1",
+    "html-minifier": "^3.2.3",
+    "listr": "^0.8.0",
+    "normalize.css": "^5.0.0",
+    "postcss": "^5.2.6",
+    "postcss-custom-media": "^5.0.1",
+    "postcss-custom-properties": "^5.0.1",
+    "postcss-import": "^8.2.0",
+    "purify-css": "^1.1.9"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "eslint": "^3.11.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.7.1"
+  }
+}
