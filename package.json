@@ -1,8 +1,8 @@
 {
-  "name": "brandonjpierce",
+  "name": "bjp",
   "version": "1.0.0",
   "scripts": {
-    "publish": "b-website && now ./public -n bjp --static"
+    "publish": "b-website && now dist -n bjp --static && now-realias"
   },
   "bin": {
     "b-website": "index.js"
@@ -20,13 +20,5 @@
     "postcss-custom-properties": "^5.0.1",
     "postcss-import": "^8.2.0",
     "purify-css": "^1.1.9"
-  },
-  "devDependencies": {
-    "ava": "^0.17.0",
-    "eslint": "^3.11.1",
-    "eslint-config-airbnb": "^13.0.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^2.2.3",
-    "eslint-plugin-react": "^6.7.1"
   }
 }
