@@ -11,7 +11,7 @@
     "autoprefixer": "^6.5.3",
     "basscss": "^8.0.3",
     "css-mqpacker": "^5.0.1",
-    "cssnano": "^3.8.1",
+    "cssnano": "^3.9.1",
     "html-minifier": "^3.2.3",
     "listr": "^0.9.0",
     "normalize.css": "^5.0.0",
