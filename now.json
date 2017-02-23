@@ -1,0 +1,10 @@
+{
+  "name": "bjp",
+  "alias": "brandonjpierce.com",
+  "engines": {
+    "node": "7.6.0"
+  },
+  "env": {
+    "NODE_ENV": "production"
+  }
+}

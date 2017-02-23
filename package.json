@@ -2,10 +2,8 @@
   "name": "bjp",
   "version": "1.0.0",
   "scripts": {
-    "publish": "b-website && now dist -n bjp --static && now-realias"
-  },
-  "bin": {
-    "b-website": "index.js"
+    "start": "serve ./dist --single --cache=86400",
+    "build": "node ./index.js"
   },
   "dependencies": {
     "autoprefixer": "^6.7.5",
@@ -19,6 +17,7 @@
     "postcss-custom-media": "^5.0.1",
     "postcss-custom-properties": "^5.0.2",
     "postcss-import": "^9.1.0",
-    "purify-css": "^1.1.9"
+    "purify-css": "^1.1.9",
+    "serve": "^3.4.1"
   }
 }
