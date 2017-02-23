@@ -7,4 +7,4 @@ Includes the following:
 - PostCSS configured with some basic plugins
 - HTML minification via `html-minifier`
 - CSS minification via `cssnano` and `purify-css`
-- TODO: deployments with `now`  
+- Deployments with `now`  
