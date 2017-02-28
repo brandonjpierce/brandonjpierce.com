@@ -18,6 +18,6 @@
     "postcss-custom-properties": "^5.0.2",
     "postcss-import": "^9.1.0",
     "purify-css": "^1.1.9",
-    "serve": "^3.4.1"
+    "serve": "^4.0.0"
   }
 }
