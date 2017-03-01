@@ -2,7 +2,7 @@
   "name": "bjp",
   "version": "1.0.0",
   "scripts": {
-    "start": "serve ./dist --single --cache=86400",
+    "start": "serve ./dist --single --cache=2628000",
     "build": "node ./index.js"
   },
   "dependencies": {
