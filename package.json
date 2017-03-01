@@ -6,11 +6,11 @@
     "build": "node ./index.js"
   },
   "dependencies": {
-    "autoprefixer": "^6.7.5",
+    "autoprefixer": "^6.7.6",
     "basscss": "^8.0.3",
     "css-mqpacker": "^5.0.1",
     "cssnano": "^3.10.0",
-    "html-minifier": "^3.3.3",
+    "html-minifier": "^3.4.0",
     "listr": "^0.11.0",
     "normalize.css": "^5.0.0",
     "postcss": "^5.2.15",
@@ -18,6 +18,6 @@
     "postcss-custom-properties": "^5.0.2",
     "postcss-import": "^9.1.0",
     "purify-css": "^1.1.9",
-    "serve": "^4.0.0"
+    "serve": "^4.0.1"
   }
 }
