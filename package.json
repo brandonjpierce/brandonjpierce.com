@@ -2,22 +2,22 @@
   "name": "bjp",
   "version": "1.0.0",
   "scripts": {
-    "start": "serve ./dist --single --cache=2628000",
+    "start": "npm run build && serve ./dist --single --cache=2628000",
     "build": "node ./index.js"
   },
   "dependencies": {
-    "autoprefixer": "^6.7.6",
+    "autoprefixer": "^6.7.7",
     "basscss": "^8.0.3",
     "css-mqpacker": "^5.0.1",
     "cssnano": "^3.10.0",
-    "html-minifier": "^3.4.0",
+    "html-minifier": "^3.4.3",
     "listr": "^0.11.0",
     "normalize.css": "^6.0.0",
-    "postcss": "^5.2.15",
+    "postcss": "^5.2.16",
     "postcss-custom-media": "^5.0.1",
     "postcss-custom-properties": "^5.0.2",
     "postcss-import": "^9.1.0",
     "purify-css": "^1.1.9",
-    "serve": "^5.0.0"
+    "serve": "^5.1.2"
   }
 }
