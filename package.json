@@ -1,12 +1,12 @@
 {
   "name": "bjp",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "scripts": {
     "start": "serve ./dist --single --cache=2628000",
     "build": "node ./index.js",
     "deploy": "now && now alias"
   },
-  "dependencies": {
+  "devDependencies": {
     "autoprefixer": "^6.7.7",
     "basscss": "^8.0.3",
     "css-mqpacker": "^5.0.1",
@@ -18,7 +18,9 @@
     "postcss-custom-media": "^5.0.1",
     "postcss-custom-properties": "^5.0.2",
     "postcss-import": "^9.1.0",
-    "purify-css": "^1.1.9",
+    "purify-css": "^1.1.9"
+  },
+  "dependencies": {
     "serve": "^5.1.2"
   }
 }
