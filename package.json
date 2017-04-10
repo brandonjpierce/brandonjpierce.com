@@ -2,8 +2,9 @@
   "name": "bjp",
   "version": "1.0.0",
   "scripts": {
-    "start": "npm run build && serve ./dist --single --cache=2628000",
-    "build": "node ./index.js"
+    "start": "serve ./dist --single --cache=2628000",
+    "build": "node ./index.js",
+    "deploy": "now && now alias"
   },
   "dependencies": {
     "autoprefixer": "^6.7.7",
