@@ -9,7 +9,7 @@
   "devDependencies": {
     "autoprefixer": "^6.7.7",
     "basscss": "^8.0.3",
-    "css-mqpacker": "^5.0.1",
+    "css-mqpacker": "^6.0.0",
     "cssnano": "^3.10.0",
     "html-minifier": "^3.4.3",
     "listr": "^0.11.0",
