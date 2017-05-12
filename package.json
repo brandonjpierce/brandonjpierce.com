@@ -17,7 +17,7 @@
     "postcss": "^5.2.16",
     "postcss-custom-media": "^5.0.1",
     "postcss-custom-properties": "^5.0.2",
-    "postcss-import": "^9.1.0",
+    "postcss-import": "^10.0.0",
     "purify-css": "^1.1.9"
   },
   "dependencies": {
