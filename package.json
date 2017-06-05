@@ -3,24 +3,23 @@
   "version": "1.1.0",
   "scripts": {
     "start": "serve ./dist --single --cache=2628000",
-    "build": "node ./index.js",
     "deploy": "now && now alias"
   },
   "devDependencies": {
-    "autoprefixer": "^6.7.7",
+    "autoprefixer": "^7.1.1",
     "basscss": "^8.0.3",
-    "css-mqpacker": "^5.0.1",
+    "css-mqpacker": "^6.0.1",
     "cssnano": "^3.10.0",
-    "html-minifier": "^3.4.3",
-    "listr": "^0.11.0",
-    "normalize.css": "^6.0.0",
-    "postcss": "^5.2.16",
-    "postcss-custom-media": "^5.0.1",
-    "postcss-custom-properties": "^5.0.2",
-    "postcss-import": "^9.1.0",
-    "purify-css": "^1.1.9"
+    "html-minifier": "^3.5.2",
+    "listr": "^0.12.0",
+    "normalize.css": "^7.0.0",
+    "postcss": "^6.0.1",
+    "postcss-custom-media": "^6.0.0",
+    "postcss-custom-properties": "^6.0.1",
+    "postcss-import": "^10.0.0",
+    "purify-css": "^1.2.2"
   },
   "dependencies": {
-    "serve": "^5.1.2"
+    "serve": "^5.2.1"
   }
 }
