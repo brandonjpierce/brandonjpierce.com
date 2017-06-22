@@ -13,13 +13,13 @@
     "html-minifier": "^3.5.2",
     "listr": "^0.12.0",
     "normalize.css": "^7.0.0",
-    "postcss": "^6.0.1",
+    "postcss": "^6.0.2",
     "postcss-custom-media": "^6.0.0",
     "postcss-custom-properties": "^6.0.1",
     "postcss-import": "^10.0.0",
-    "purify-css": "^1.2.2"
+    "purify-css": "^1.2.5"
   },
   "dependencies": {
-    "serve": "^5.2.1"
+    "serve": "^5.2.4"
   }
 }
