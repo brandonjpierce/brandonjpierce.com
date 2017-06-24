@@ -20,6 +20,6 @@
     "purify-css": "^1.2.5"
   },
   "dependencies": {
-    "serve": "^5.2.4"
+    "serve": "^6.0.0"
   }
 }
