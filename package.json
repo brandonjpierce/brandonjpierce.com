@@ -1,25 +1,24 @@
 {
-  "name": "bjp",
+  "name": "personal-website",
+  "private": true,
   "version": "1.1.0",
   "scripts": {
-    "start": "serve ./dist --single --cache=2628000",
-    "deploy": "now && now alias"
+    "build": "mkdir -p dist && node index.js",
+    "start": "serve dist/"
   },
   "devDependencies": {
-    "autoprefixer": "^7.1.1",
+    "autoprefixer": "^7.1.5",
     "basscss": "^8.0.3",
     "css-mqpacker": "^6.0.1",
     "cssnano": "^3.10.0",
-    "html-minifier": "^3.5.2",
+    "fs-extra": "^4.0.2",
+    "html-minifier": "^3.5.6",
     "listr": "^0.12.0",
     "normalize.css": "^7.0.0",
-    "postcss": "^6.0.3",
+    "postcss": "^6.0.13",
     "postcss-custom-media": "^6.0.0",
-    "postcss-custom-properties": "^6.0.1",
-    "postcss-import": "^10.0.0",
+    "postcss-custom-properties": "^6.2.0",
+    "postcss-import": "^11.0.0",
     "purify-css": "^1.2.5"
-  },
-  "dependencies": {
-    "serve": "^5.2.4"
   }
 }
