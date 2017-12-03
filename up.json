@@ -1,0 +1,22 @@
+{
+  "name": "website",
+  "description": "https://brandonjpierce.com website",
+  "type": "static",
+  "static": {
+    "dir": "./dist"
+  },
+  "profile": "personal",
+  "regions": ["us-*", "ca-*"],
+  "hooks": {
+    "build": "npm run build",
+    "clean": "rm -rf dist"
+  },
+  "lambda": {
+    "memory": 1024
+  },
+  "stages": {
+    "development": {
+      "domain": "brandonjpierce.com"
+    }
+  }
+}
