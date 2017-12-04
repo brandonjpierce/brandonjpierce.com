@@ -19,7 +19,7 @@ const tasks = new Listr([
     task: htmlmin,
   },
   {
-    title: 'Running Purify',
+    title: 'Running Purify & Inlining CSS',
     task: purify,
   },
 ]);
