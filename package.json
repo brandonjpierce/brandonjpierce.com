@@ -3,8 +3,9 @@
   "private": true,
   "version": "2.0.0",
   "scripts": {
+    "dev": "yarn build && yarn start",
     "build": "mkdir -p dist && node index.js",
-    "start": "serve dist/"
+    "start": "up start"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.5",
