@@ -6,7 +6,7 @@
     "dir": "./dist"
   },
   "profile": "personal",
-  "regions": ["us-*", "ca-*"],
+  "regions": ["us-west-2"],
   "hooks": {
     "build": "npm run build",
     "clean": "rm -rf dist"
