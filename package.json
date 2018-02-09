@@ -15,7 +15,7 @@
     "fs-extra": "^5.0.0",
     "html-minifier": "^3.5.8",
     "listr": "^0.13.0",
-    "normalize.css": "^7.0.0",
+    "normalize.css": "^8.0.0",
     "postcss": "^6.0.16",
     "postcss-custom-media": "^6.0.0",
     "postcss-custom-properties": "^6.2.0",
