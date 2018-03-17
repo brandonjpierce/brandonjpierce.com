@@ -15,7 +15,7 @@
     "memory": 1024
   },
   "stages": {
-    "development": {
+    "production": {
       "domain": "brandonjpierce.com"
     }
   }

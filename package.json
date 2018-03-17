@@ -1,25 +1,26 @@
 {
   "name": "personal-website",
   "private": true,
-  "version": "2.0.0",
+  "version": "2.1.0",
   "scripts": {
-    "dev": "yarn build && yarn start",
     "build": "mkdir -p dist && node index.js",
+    "deploy": "up production",
+    "dev": "yarn build && yarn start",
     "start": "up start"
   },
   "devDependencies": {
-    "autoprefixer": "^7.2.4",
-    "basscss": "^8.0.3",
-    "css-mqpacker": "^6.0.1",
+    "autoprefixer": "^8.1.0",
+    "basscss": "^8.0.4",
+    "css-mqpacker": "^6.0.2",
     "cssnano": "^3.10.0",
     "fs-extra": "^5.0.0",
-    "html-minifier": "^3.5.8",
+    "html-minifier": "^3.5.11",
     "listr": "^0.13.0",
-    "normalize.css": "^7.0.0",
-    "postcss": "^6.0.16",
+    "normalize.css": "^8.0.0",
+    "postcss": "^6.0.19",
     "postcss-custom-media": "^6.0.0",
-    "postcss-custom-properties": "^6.2.0",
-    "postcss-import": "^11.0.0",
+    "postcss-custom-properties": "^7.0.0",
+    "postcss-import": "^11.1.0",
     "purify-css": "^1.2.5"
   }
 }
