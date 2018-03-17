@@ -14,6 +14,15 @@
   "lambda": {
     "memory": 1024
   },
+  "error_pages": {
+    "disable": true
+  },
+  "redirects": {
+    "/*": {
+      "location": "/",
+      "status": 200
+    }
+  },
   "stages": {
     "production": {
       "domain": "brandonjpierce.com"
