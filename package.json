@@ -9,7 +9,7 @@
     "start": "up start"
   },
   "devDependencies": {
-    "autoprefixer": "^8.1.0",
+    "autoprefixer": "^9.1.4",
     "basscss": "^8.0.4",
     "css-mqpacker": "^6.0.2",
     "cssnano": "^3.10.0",
