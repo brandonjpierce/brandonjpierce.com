@@ -18,7 +18,7 @@
     "listr": "^0.13.0",
     "normalize.css": "^8.0.0",
     "postcss": "^6.0.19",
-    "postcss-custom-media": "^6.0.0",
+    "postcss-custom-media": "^7.0.5",
     "postcss-custom-properties": "^7.0.0",
     "postcss-import": "^11.1.0",
     "purify-css": "^1.2.5"
